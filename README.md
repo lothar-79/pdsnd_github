@@ -17,4 +17,6 @@ new_york_city.csv
 ### Credits
 for more informations about git:  https://git-scm.com/
 for more informations about python:  https://docs.python.org/3/
+for python numpy whatch: http://www.numpy.org/
+for python pandas whatch: http://pandas.pydata.org/
 
