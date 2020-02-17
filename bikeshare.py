@@ -49,7 +49,7 @@ def get_filters():
 
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    user_day_request = "Please choose one of the days: monday, tuesday, wednesday, thursday, friday, saturday, sunday or say all: "
+    user_day_request = "Please choose one of the days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or say all: "
     day_names = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
     while True:
