@@ -49,7 +49,7 @@ def get_filters():
 
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    user_day_request = "Please choose one of the days: monday, tuesday, wednesday, thursday, friday, saturday, sunday or say all: "
+    user_day_request = "Please choose one of the days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or say all: "
     day_names = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
     while True:
@@ -230,7 +230,7 @@ def user_stats(df, city):
 
 
 
-def raw_data(df):
+def display_raw_data(df):
     """Displays raw data to the user.
         Starts with five rows and adds five rows if requested till the end of the table"""
 
@@ -281,7 +281,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        raw_data(df)
+        display_raw_data(df)
 
 
         restart = input('\nWould you like to restart? Then enter yes. Otherwise enter anything else.\n')
